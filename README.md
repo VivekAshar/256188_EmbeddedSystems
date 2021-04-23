@@ -20,5 +20,5 @@ Controlling LED using a push-button and a switch
 |:--:|:--:|
 |[![Compile-Linux](![Cppcheck](https://github.com/Santos280/Step-in_Embedded/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Santos280/Step-in_Embedded/actions/workflows/CodeQulaity.yml)|[![Cppcheck](![Cppcheck](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/CodeQuality.yml)|
 
-## Wiki Documentation
+## Wiki DocumentatioCompile-Linuxn
 * System [SETUP](https://github.com/VivekAshar/256188_EmbeddedSystems/wiki)
