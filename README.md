@@ -18,7 +18,7 @@ Controlling LED using a push-button and a switch
 
 |Build|Cppcheck|
 |:--:|:--:|
-|[![Compile-Linux](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/.github/workflows/compile.yml)|[![Cppcheck](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/.github/workflows/CodeQuality.yml)|
+|[![Compile-Linux](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/Activity1/.github/workflows/compile.yml)|[![Cppcheck](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/Activity1/.github/workflows/CodeQuality.yml)|
 
 ## Wiki Documentation
 * System [SETUP](https://github.com/VivekAshar/256188_EmbeddedSystems/wiki)
