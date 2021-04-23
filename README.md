@@ -10,7 +10,7 @@ Controlling LED using a push-button and a switch
 
 ### In Action
 
-|ON|OFF STATE 1|OFFSTATE2|
+|ON|OFF STATE 1|OFFSTATE 2|
 |:--:|:--:|:--:|
 |![ON](simulation/ONN%20STATE.png)|![OFF STATE 1](simulation/OFF%20STATE%201.png)|![OFF STATE 2](simulation/OFF%20STATE%202.png)|
 
