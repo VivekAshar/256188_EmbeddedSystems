@@ -85,15 +85,14 @@ int main(void)
     configure_pins();
     configure_adc(temp);
 
-    int led_state;
-
     while(1)
     {
-       led_state=turn_on();
-       if (led_state)
-       {
-           uint16_t temp_value=readADC();    
-       }
+        int led_state;
+        led_state=turn_on();
+        if (led_state)
+        {
+            uint16_t temp_value=readADC();    
+        }
     }
 
     return 0;
