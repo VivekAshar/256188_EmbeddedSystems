@@ -1,4 +1,4 @@
-DOXY_FILE = Activity1
+DOXY_FILE = EmbC
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)

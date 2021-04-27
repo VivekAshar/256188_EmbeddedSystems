@@ -1,0 +1,1 @@
+@mainpage EmbC Example by Vivek Ashar @subpage main.c

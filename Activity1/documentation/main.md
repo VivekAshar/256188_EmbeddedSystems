@@ -1,1 +1,0 @@
-@mainpage Activity1 Example by Vivek Ashar @subpage main.c
