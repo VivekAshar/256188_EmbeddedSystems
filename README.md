@@ -8,9 +8,9 @@ Controlling LED using a push-button and a switch
 
 Taking the analog output from an analog temperature sensor and performing ADC to store the 10-bit binary level in ADCH-ADCL registers when the push-button and the switch, are both on.
 
-## Activity 2
+## Activity 3
 
-Generating a PWM wave based on the output(analog-ADC-digital) of the temperature sensor.
+Generating a PWM wave based on the output(analog-ADC-digital) of the temperature sensor and feding it to the heater(CRO).
 
 ### Simulation on SIMULIDE
 
