@@ -91,7 +91,8 @@ int main(void)
         led_state=turn_on();
         if (led_state)
         {
-            uint16_t temp_value=readADC();    
+            uint16_t temp_value=readADC();
+            printf("%u\n", (unsigned int)temp_value);   
         }
     }
 
