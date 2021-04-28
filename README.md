@@ -6,13 +6,13 @@ Controlling LED using a push-button and a switch
 
 ### Simulation on SIMULIDE
 
-[SIMULATION](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/Activity1/simulation/Simulation.png)
+![SIMULATION](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20SIMULATION.PNG)
 
 ### In Action
 
 |ON|OFF STATE 1|OFFSTATE 2|
 |:--:|:--:|:--:|
-|![ON](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/Activity1/simulation/ONN%20STATE.png)|![OFF STATE 1](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/Activity1/simulation/OFF%20STATE%201.png)|![OFF STATE 2](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/Activity1/simulation/OFF%20STATE%202.png)|
+|![ON](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20ON%20STATE.PNG)|![OFF STATE 1](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20OFF%20STATE%201.PNG)|![OFF STATE 2](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20OFF%20STATE%202.PNG)|
 
 #### CI and Code Quality
 
