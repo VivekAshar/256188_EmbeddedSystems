@@ -11,13 +11,13 @@ Taking the analog output from an analog temperature sensor and performing ADC to
 
 ### Simulation on SIMULIDE
 
-![SIMULATION](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20SIMULATION.PNG)
+![SIMULATION](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%203/ACT%203%20SIMULATION.PNG)
 
 ### In Action
 
 |ON|OFF STATE 1|OFFSTATE 2|
 |:--:|:--:|:--:|
-|![ON](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20ON%20STATE.PNG)|![OFF STATE 1](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20OFF%20STATE%201.PNG)|![OFF STATE 2](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20OFF%20STATE%202.PNG)|
+|![ON](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%203/ACT%203%20ON%20STATE.PNG)|![OFF STATE 1](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%203/ACT%203%20OFF%20STATE%201.PNG)|![OFF STATE 2](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%203/ACT%203%20OFF%20STATE%202.PNG)|
 
 #### CI and Code Quality
 
