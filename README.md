@@ -4,6 +4,11 @@
 
 Controlling LED using a push-button and a switch
 
+
+## Activity 2
+
+Taking the analog output from an analog temperature sensor and performing ADC to store the 10-bit binary level in ADCH-ADCL registers when the push-button and the switch, are both on.
+
 ### Simulation on SIMULIDE
 
 ![SIMULATION](https://github.com/VivekAshar/256188_EmbeddedSystems/blob/main/simulation/Activity%202/ACT%202%20SIMULATION.PNG)
