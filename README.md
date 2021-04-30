@@ -36,9 +36,9 @@ Sending the temperature data recorded by the MCU, to another MCU (car's dashboar
 
 #### CI and Code Quality
 
-|Build|Cppcheck|
-|:--:|:--:|
-|[![Compile-Linux](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/compile.yml/badge.svg)](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/CodeQuality.yml)|
+|Build|Cppcheck|Codacy|
+|:--:|:--:|:--:|
+|[![Compile-Linux](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/compile.yml/badge.svg)](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/VivekAshar/256188_EmbeddedSystems/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7c5936ee155f4b8da812a5a910bcb301)](https://www.codacy.com/gh/VivekAshar/256188_EmbeddedSystems/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VivekAshar/256188_EmbeddedSystems&amp;utm_campaign=Badge_Grade)|
 
 ## Wiki DocumentatioCompile-Linuxn
 * System [SETUP](https://github.com/VivekAshar/256188_EmbeddedSystems/wiki)
