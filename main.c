@@ -16,12 +16,17 @@
 #include "Activity1.h"
 #include "Activity2.h"
 #include "Activity3.h"
+#include "Activity4.h"
+
 
 #define Switch PD0
 #define pushbutton PB0
 #define temp PC2
 #define LED PC0
 #define heater PB1
+#define F_CPU 16000000UL
+#define BAUD 9600
+#define BAUDRATE ((F_CPU)/(BAUD*0x16UL)-1)
 
     /**
      * @brief configuring the GPIO pins as input or output
@@ -96,6 +101,28 @@ void configure_pwm()
 
 
 /**
+ * @brief To configure all the registers of USART for successful ransmission of 8-bit data
+ *
+ */
+
+void configure_usart()
+{
+    UBRR0H=(BAUDRATE>>8);
+
+    UBRR0L=BAUDRATE;
+
+    UCSR0B|= (1<<RXEN0)|(1<<TXEN0); //Enable Rx and Tx
+
+    UCSR0B|= (1<<RXCIE0)|(1<<TXCIE0); //Enable receiver and transmitter complete interrupt
+
+    UCSR0C|=(1<<UMSEL00);  //Select USART Mode of operation - Asynchronous
+
+    UCSR0C|=(1<<UCSZ00)|(1<<UCSZ01); // Dataframe size = 8-bits
+}
+
+
+
+/**
  * @brief main function where the execution of code starts
  *
  * @return return 0 if the program excutes successfully
@@ -112,17 +139,42 @@ int main(void)
 
     configure_pwm();
 
+    configure_usart();
 
     while(1)
     {
-        int led_state;
-        led_state=turn_on();
-        if (led_state)
-        {
+       int led_state;
+
+       led_state=turn_on();
+
+       if (led_state)
+       {
            uint16_t temp_value=readADC();
-           uint8_t temp_display=dispense_heat(temp_value);
-           //printf("%u\n", (unsigned int)temp_display);
-        }
+
+           int temp_display=dispense_heat(temp_value);
+
+           if (temp_display==20)
+           {
+               make_string("20");
+            }
+
+           else if (temp_display==25)
+           {
+               make_string("25");
+            }
+
+           else if (temp_display==29)
+           {
+               make_string("29");
+            }
+
+           else if (temp_display==33)
+           {
+               make_string("33");
+            }
+
+
+       }
     }
 
     return 0;

@@ -1,3 +1,15 @@
+/**
+ * @file Activity1.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -14,8 +26,8 @@
 
 /**
  * @brief if both the switch and push-button are pressed, then turn on the heater's LED
- * 
- * @return int 
+ *
+ * @return int
  */
 
 int turn_on()
@@ -26,7 +38,7 @@ int turn_on()
             return 1;
         }
 
-        /* any other condition, turn the LED off */ 
+        /* any other condition, turn the LED off */
         else
         {
             PORTC&=~(1<<LED);

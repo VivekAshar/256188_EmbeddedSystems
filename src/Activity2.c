@@ -1,3 +1,14 @@
+/**
+ * @file Activity2.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -13,8 +24,8 @@
 
 /**
  * @brief to read the analog o/p of the temperature sensor at pin temp=PC2 and convert it into a 10-bit binary number
- * 
- * @return uint16_t 
+ *
+ * @return uint16_t
  */
 
 

@@ -1,3 +1,14 @@
+/**
+ * @file Activity3.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -20,7 +31,7 @@
  * @return uint8_t to return the emperature to be communicated to another ECU(car dashbord) for display purpose
  */
 
-uint8_t dispense_heat(uint16_t temperature)
+int dispense_heat(uint16_t temperature)
 {
     if (0<=temperature && temperature<=205)
     {
