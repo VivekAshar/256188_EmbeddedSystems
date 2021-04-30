@@ -1,7 +1,7 @@
 /**
  * @file Activity4.c
  * @author Vivek Ashar
- * @brief
+ * @brief To send the temperture data to another MCU(Car's dashboard) via USART
  * @version 0.1
  * @date 2021-04-30
  *
@@ -11,10 +11,20 @@
 
 
 #include <avr/io.h>
-#include <util/delay.h>
+
 #include <avr/interrupt.h>
 
 #include "Activity4.h"
+
+
+#define Switch PD0
+#define pushbutton PB0
+#define temp PC2
+#define LED PC0
+#define heater PB1
+#define F_CPU 16000000UL
+#define BAUD 9600
+#define BAUDRATE ((F_CPU)/(BAUD*0x16UL)-1)
 
 
 

@@ -1,7 +1,7 @@
 /**
  * @file main.c
  * @author Vivek Ashar
- * @brief Project to Take two inputs in the form of a switch and a push-botton and operate an LED
+ * @brief Project for seat-heating application in a car
  * @version 0.1
  * @date 2021-04-24
  *
@@ -10,7 +10,7 @@
  */
 
 #include <avr/io.h>
-#include <util/delay.h>
+
 #include <avr/interrupt.h>
 
 #include "Activity1.h"
@@ -131,7 +131,7 @@ void configure_usart()
 
 int main(void)
 {
-    sei();
+    // sei();
 
     configure_pins();
 

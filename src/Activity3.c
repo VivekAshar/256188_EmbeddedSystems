@@ -1,7 +1,7 @@
 /**
  * @file Activity3.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Vivek Ashar
+ * @brief To generate a pwm signal based on the output of the ADC
  * @version 0.1
  * @date 2021-04-30
  * 
@@ -10,7 +10,7 @@
  */
 
 #include <avr/io.h>
-#include <util/delay.h>
+
 #include <avr/interrupt.h>
 
 
@@ -21,7 +21,9 @@
 #define temp PC2
 #define LED PC0
 #define heater PB1
-
+#define F_CPU 16000000UL
+#define BAUD 9600
+#define BAUDRATE ((F_CPU)/(BAUD*0x16UL)-1)
 
 
 /**
