@@ -15,7 +15,7 @@ Generating a PWM wave based on the output(analog-ADC-digital) of the temperature
 
 ## Activity 4
 
-Sending the temperature data recorded by the MCU, to another MCU(car's dashboard) via USART, for display purpose.
+Sending the temperature data recorded by the MCU, to another MCU (car's dashboard) via USART, for display purpose.
 
 ### Simulation on SIMULIDE
 
